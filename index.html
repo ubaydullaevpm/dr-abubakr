@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Dr. Abubakr Ochilov — stomatolog, xirurg, ortoped | Navoiy</title>
+<meta name="description" content="Dr. Abubakr Ochilov — DENTA ABU-MUSLIM klinikasi asoschisi. Plomba, tish olish, koronka, protez va implant. Navoiy, Islom Karimov ko'chasi, 66. Tel: +998 91 336 55 80.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0B1E4A">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dr. Abubakr — stomatolog, Navoiy">
+<meta property="og:description" content="DENTA ABU-MUSLIM klinikasi. Plomba, tish olish, koronka, protez, implant. Qo'ng'iroq: +998 91 336 55 80">
+<meta property="og:image" content="https://ubaydullaevpm.github.io/dr-abubakr/og-sq.jpg?v=1">
+<meta property="og:image:width" content="400">
+<meta property="og:image:height" content="400">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1E4A;--navy2:#132B66;--blue:#1E4FD6;--blue2:#2F6BEA;--ice:#E4ECFB;--bg:#EEF2F8;
+  --ink:#0B1E4A;--mute:#55627F;--line:#DCE3EF;--card:#fff;--r:22px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html,body{overflow-x:hidden}@supports (overflow:clip){html,body{overflow-x:clip}}
+body{font-family:Manrope,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;font-size:16px}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.wrap{width:100%;max-width:1200px;margin:0 auto;padding:0 16px}
+h1,h2,h3{letter-spacing:-.025em;line-height:1.08;font-weight:700;text-wrap:balance}
+p,.lead{text-wrap:pretty}
+section[id]{scroll-margin-top:84px}
+h2{font-size:clamp(30px,7.4vw,48px)}
+h2 .soft{color:#5B6A8E;font-weight:600}
+.accent{color:var(--blue)}
+.lead{color:var(--mute);font-size:17px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 22px;border-radius:999px;background:var(--navy);color:#fff;font-weight:700;font-size:15.5px;transition:transform .2s,background .2s}
+.btn:active{transform:scale(.97)}
+.btn:hover{background:var(--navy2)}
+.btn .ar{width:30px;height:30px;border-radius:50%;background:#fff;color:var(--navy);display:grid;place-items:center;margin-right:-12px}
+.btn--ghost{background:transparent;color:var(--navy);border:1.5px solid var(--navy)}
+.btn--ghost:hover{background:#fff}
+.btn--light{background:#fff;color:var(--navy)}
+.btn--light:hover{background:var(--ice)}
+.btn--light .ar{background:var(--navy);color:#fff}
+.ic{width:20px;height:20px;flex:none}
+
+/* header */
+.hd{position:sticky;top:8px;z-index:30;padding:0 16px}
+.hd .bar{max-width:1168px;margin:8px auto 0;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:999px;display:flex;align-items:center;justify-content:space-between;padding:6px 6px 6px 16px}
+.logo{display:flex;align-items:center;gap:9px;font-weight:800;font-size:17px;letter-spacing:-.02em}
+.logo .mk{width:34px;height:34px;border-radius:50%;background:var(--navy);display:grid;place-items:center}
+.logo small{display:block;font-size:11px;font-weight:600;color:var(--mute);letter-spacing:0;margin-top:-2px}
+.nav{display:none;gap:26px;font-size:14.5px;font-weight:600;color:var(--mute)}
+.nav a:hover{color:var(--navy)}
+.hd .btn{min-height:42px;padding:0 16px;font-size:14px}
+@media (min-width:960px){.nav{display:flex}}
+
+/* hero */
+.hero{padding:22px 0 8px}
+.hero .grid{display:grid;gap:22px}
+.hero h1{font-size:clamp(40px,11vw,74px);margin-top:6px}
+.hero .lead{margin-top:16px;max-width:520px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.hero .ctas .btn{flex:1 1 auto}
+.who{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 6px;font-size:13.5px;font-weight:600;color:var(--mute)}
+.who b{color:var(--navy)}
+.who .dot{width:24px;height:24px;border-radius:50%;background:var(--ice);display:grid;place-items:center}
+.portrait{position:relative;border-radius:28px;overflow:hidden;background:linear-gradient(160deg,#3B7BF0 0%,#1E4FD6 55%,#163FB0 100%);aspect-ratio:4/4.3}
+.portrait img{position:absolute;inset:auto 0 0 0;width:100%;height:100%;object-fit:cover;object-position:center 30%;mix-blend-mode:normal}
+.portrait .chip{position:absolute;left:12px;right:12px;bottom:12px;background:#fff;border-radius:16px;padding:12px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.portrait .chip b{display:block;font-size:15.5px}
+.portrait .chip span{font-size:12.5px;color:var(--mute);font-weight:600}
+.round-ar{width:40px;height:40px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;flex:none}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:18px}
+.facts div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px 10px;text-align:center;font-size:12.5px;font-weight:700;color:var(--navy)}
+.facts svg{display:block;margin:0 auto 6px}
+@media (min-width:600px) and (max-width:899px){.portrait,.hero .facts{max-width:440px;margin-left:auto;margin-right:auto}.portrait{margin-top:8px}.doc .ph{max-width:440px}.nums .ph{aspect-ratio:16/8}}
+@media (min-width:900px){
+  .hero{padding:44px 0 10px}
+  .hero .grid{grid-template-columns:1.08fr .92fr;align-items:center;gap:48px}
+  .hero .ctas .btn{flex:0 0 auto}
+}
+
+/* sections */
+.sec{padding:64px 0 0}
+.sec-hd{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:24px}
+.sec-hd p{margin-top:10px;max-width:520px}
+.arrows{display:none;gap:8px}
+.arr{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;border:1.5px solid var(--line);background:#fff;color:var(--navy);transition:background .2s}
+.arr--on{background:var(--navy);border-color:var(--navy);color:#fff}
+.arr:disabled{opacity:.35;cursor:default}
+@media (min-width:700px){.arrows{display:flex}}
+
+/* service carousel */
+.rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:16px;padding:2px 16px 6px;margin:0 -16px;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.svc{scroll-snap-align:start;flex:0 0 78%;max-width:300px;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px;display:flex;flex-direction:column;min-height:300px}
+.svc h3{font-size:19px;margin-top:18px}
+.svc p{color:var(--mute);font-size:14.5px;margin-top:8px;flex:1}
+.svc .foot{display:flex;align-items:center;justify-content:space-between;margin-top:16px;font-size:13.5px;font-weight:700}
+.svc--photo{position:relative;color:#fff;border:0;overflow:hidden;background:var(--navy)}
+.svc--photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.svc--photo>*:not(img){position:relative}
+.svc--photo p{color:#DCE6FF}
+.svc--photo .tile{background:#fff}
+.tile{width:54px;height:54px;border-radius:50%;background:var(--ice);display:grid;place-items:center;color:var(--blue);flex:none}
+.tile svg{width:26px;height:26px}
+.ring{width:38px;height:38px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center}
+.svc--photo .ring{background:#fff;color:var(--navy)}
+@media (min-width:900px){.svc{flex-basis:calc((100% - 36px)/4)}.rail{margin:0;padding:2px 0 6px;scroll-padding-inline:0}}
+
+/* numbers */
+.nums{display:grid;gap:12px}
+.nums .ph{border-radius:var(--r);overflow:hidden;aspect-ratio:4/3.4;background:#cfd8ea}
+.nums .ph img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.nums .g{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.num{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px 16px}
+.num small{font-size:13px;font-weight:600;color:var(--mute)}
+.num b{display:block;white-space:nowrap;font-size:clamp(28px,8.2vw,44px);letter-spacing:-.03em;color:var(--blue);line-height:1.1;margin:4px 0 2px}
+.num span{font-size:13px;color:#5E6A87}
+@media (min-width:900px){.nums{grid-template-columns:.8fr 1.2fr}.nums .ph{aspect-ratio:auto}.num{display:flex;flex-direction:column;justify-content:space-between;padding:24px}.num b{font-size:56px}}
+
+/* results */
+.case{background:#fff;border:1px solid var(--line);border-radius:28px;padding:16px}
+.pairs{display:grid;gap:12px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.shot{position:relative;border-radius:16px;overflow:hidden;aspect-ratio:1;background:#e9edf5}
+.shot img{width:100%;height:100%;object-fit:cover}
+.shot .tag{position:absolute;left:8px;top:8px;background:#fff;color:var(--navy);font-size:12px;font-weight:700;border-radius:999px;padding:4px 10px}
+.shot .tag--k{background:var(--blue);color:#fff}
+.shot .zoom{position:absolute;right:8px;bottom:8px;width:32px;height:32px;border-radius:50%;background:rgba(11,30,74,.78);color:#fff;display:grid;place-items:center}
+.case .meta{display:flex;gap:14px;align-items:center;margin-top:16px}
+.case .meta .pp{width:62px;height:62px;border-radius:50%;overflow:hidden;flex:none;background:#e9edf5}
+.case .meta .pp img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.case .meta b{display:block;font-size:17px}
+.case .meta span{font-size:14px;color:var(--mute)}
+.case .note{font-size:13px;color:#5E6A87;margin-top:12px}
+.pair--one{grid-template-columns:1fr}.pair--one .shot{aspect-ratio:2/1}.pair--one .shot img{object-position:center 28%}
+@media (min-width:900px){.pairs{grid-template-columns:1fr 1fr}.pair--one{grid-column:1/-1}.pair--one .shot{aspect-ratio:3.2/1}}
+
+/* tech cards (numbered badge + chip) */
+.tech-band{background:#F7F9FD;border-radius:32px;padding:44px 0 20px;margin:64px 16px 0;overflow:hidden}
+.tech-band h2{text-align:center}
+.tech-band .sub{text-align:center;margin:10px auto 26px;max-width:460px}
+.tc{scroll-snap-align:start;flex:0 0 82%;max-width:360px;position:relative;border-radius:var(--r);overflow:hidden;aspect-ratio:4/5;background:#cfd8ea}
+.tc img{width:100%;height:100%;object-fit:cover}
+.tc .badge{position:absolute;left:12px;top:12px;width:30px;height:30px;border-radius:50%;background:#fff;color:var(--navy);font-weight:800;font-size:13px;display:grid;place-items:center}
+.tc .cap{position:absolute;left:10px;right:10px;bottom:10px;background:#fff;border-radius:14px;padding:12px 14px}
+.tc .cap b{display:block;font-size:16px}
+.tc .cap span{font-size:13px;color:var(--mute)}
+.ctr{display:flex;justify-content:center;gap:10px;margin-top:16px}
+@media (min-width:900px){.tc{flex-basis:calc((100% - 24px)/3)}.tech-band .ctr{display:none}}
+
+/* doctor */
+.doc{display:grid;gap:22px}
+.doc .ph{border-radius:28px;overflow:hidden;aspect-ratio:4/5;background:#cfd8ea}
+.doc .ph img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.doc h2{margin-bottom:12px}
+.list{display:grid;gap:12px;margin-top:22px}
+.li{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px}
+.li .tile{width:48px;height:48px}
+.li .tile svg{width:23px;height:23px}
+.li b{display:block;font-size:16px}
+.li span{font-size:14px;color:var(--mute)}
+.doc .ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.doc .ctas .btn{flex:1 1 auto}
+@media (min-width:900px){.doc{grid-template-columns:.85fr 1.15fr;align-items:center;gap:56px}.list{grid-template-columns:1fr 1fr}}
+
+/* visit carousel */
+.visit{overflow:hidden;overflow:clip}
+.visit h2{text-align:center}
+.visit .sub{text-align:center;margin:10px auto 24px;max-width:460px}
+.stage{position:relative;height:clamp(240px,62vw,440px)}
+.vs{position:absolute;top:50%;left:50%;width:min(78%,640px);aspect-ratio:16/11;border-radius:22px;overflow:hidden;transform:translate(-50%,-50%) scale(.82);opacity:0;transition:transform .5s cubic-bezier(.2,.7,.2,1),opacity .4s,left .5s cubic-bezier(.2,.7,.2,1);background:#cfd8ea}
+.vs img{width:100%;height:100%;object-fit:cover}
+.vs.on{opacity:1;transform:translate(-50%,-50%) scale(1);z-index:2}
+.vs.prev{opacity:.85;left:6%;z-index:1}
+.vs.next{opacity:.85;left:94%;z-index:1}
+.vs .cap{position:absolute;left:10px;bottom:10px;background:#fff;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:700}
+.dots{display:flex;gap:6px;align-items:center}
+.dots i{width:6px;height:6px;border-radius:50%;background:#B8C3DA;transition:width .3s}
+.dots i.on{width:20px;border-radius:4px;background:var(--navy)}
+
+/* map */
+.mapgrid{display:grid;gap:12px;margin-top:22px}
+.map{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3.2;background:#dfe6f2}
+.map iframe{width:100%;height:100%;border:0;display:block}
+.addr{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px}
+.addr .row{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--line)}
+.addr .row:last-of-type{border:0}
+.addr .row .tile{width:44px;height:44px}
+.addr .row .tile svg{width:21px;height:21px}
+.addr small{display:block;font-size:12.5px;color:var(--mute);font-weight:600}
+.addr b{font-size:15.5px}
+.addr .ctas{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.addr .ctas .btn{padding:0 12px}
+@media (min-width:900px){.mapgrid{grid-template-columns:1.4fr 1fr}.map{aspect-ratio:auto;min-height:400px}}
+
+/* faq */
+.faq{display:grid;gap:10px;max-width:820px;margin:0 auto}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:18px;padding:0 18px}
+.faq summary{list-style:none;cursor:pointer;padding:18px 0;font-weight:700;font-size:16px;display:flex;justify-content:space-between;gap:14px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .pl{width:30px;height:30px;border-radius:50%;background:var(--ice);color:var(--blue);display:grid;place-items:center;flex:none;transition:transform .25s}
+.faq details[open] .pl{transform:rotate(45deg)}
+.faq details p{padding:0 0 18px;color:var(--mute);font-size:15px}
+.faq-hd{text-align:center;margin-bottom:24px}
+
+/* final */
+.final{margin:72px 16px 0;border-radius:32px;background:var(--navy);color:#fff;position:relative;overflow:hidden;padding:56px 0}
+.final:before{content:"";position:absolute;inset:0;background:url(ct.jpg) center/cover;opacity:.16}
+.final .wrap{position:relative;text-align:center}
+.final h2{font-size:clamp(32px,8vw,54px);max-width:720px;margin:0 auto}
+.final h2 .accent{color:#8FB2FF}
+.final p{color:#C6D3F2;margin:14px auto 26px;max-width:460px}
+.final .ctas{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.btn--ghost-light{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.55)}
+.btn--ghost-light:hover{background:rgba(255,255,255,.08)}
+.final .num-big{display:block;font-size:22px;font-weight:800;letter-spacing:.01em;margin-top:16px;color:#fff}
+footer{padding:28px 0 110px;font-size:13.5px;color:var(--mute);text-align:center}
+footer a{text-decoration:underline}
+
+/* sticky call */
+.callbar{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:40;display:flex;gap:8px;transform:translateY(140%);transition:transform .35s}
+.callbar.show{transform:none}
+.callbar .btn{flex:1;min-height:54px}
+.callbar .tg{flex:0 0 54px;padding:0;background:#fff;color:var(--blue);border:1px solid var(--line)}
+@media (min-width:900px){.callbar{display:none}footer{padding-bottom:36px}}
+
+/* dialog */
+dialog.lb{border:0;padding:0;background:transparent;max-width:min(92vw,720px);width:100%;margin:auto}
+dialog.lb::backdrop{background:rgba(6,16,40,.82)}
+.lb .box{background:#fff;border-radius:22px;overflow:hidden}
+.lb img{width:100%;max-height:72vh;object-fit:contain;background:#0b1e4a}
+.lb .bt{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px}
+.lb .bt b{font-size:15.5px}
+.lb .x{width:42px;height:42px;border-radius:50%;background:var(--ice);color:var(--navy);display:grid;place-items:center;flex:none}
+
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.vs{transition:none}}
+:focus-visible{outline:3px solid var(--blue2);outline-offset:3px}
+@media (min-width:1232px){.tech-band,.final{max-width:1200px;margin-left:auto;margin-right:auto}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-tooth" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7.2 3.2c-2.6 0-4.2 2.1-4.2 4.8 0 2.4 1.1 3.8 1.6 5.6.6 2.2.7 7.2 2.8 7.2 1.8 0 1.6-4.6 3.1-5.9.4-.4 1-.4 1.4 0 1.5 1.3 1.3 5.9 3.1 5.9 2.1 0 2.2-5 2.8-7.2.5-1.8 1.6-3.2 1.6-5.6 0-2.7-1.6-4.8-4.2-4.8-1.9 0-2.9 1.1-4.8 1.1S9.1 3.2 7.2 3.2Z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M9 6.2c1 .5 2 .7 3 .7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 3.5h3.2l1.6 4.2-2.1 1.4a11 11 0 0 0 7.2 7.2l1.4-2.1 4.2 1.6V19a2 2 0 0 1-2 2A16.5 16.5 0 0 1 3 5.5a2 2 0 0 1 2-2Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M9 7h8v8"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m6-6-6 6 6 6"/></symbol>
+    <symbol id="i-fill" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7.2 3.2c-2.6 0-4.2 2.1-4.2 4.8 0 2.4 1.1 3.8 1.6 5.6.6 2.2.7 7.2 2.8 7.2 1.8 0 1.6-4.6 3.1-5.9.4-.4 1-.4 1.4 0 1.5 1.3 1.3 5.9 3.1 5.9 2.1 0 2.2-5 2.8-7.2.5-1.8 1.6-3.2 1.6-5.6 0-2.7-1.6-4.8-4.2-4.8-1.9 0-2.9 1.1-4.8 1.1S9.1 3.2 7.2 3.2Z"/><circle cx="12" cy="9.6" r="2.3" fill="currentColor" opacity=".9"/></symbol>
+    <symbol id="i-forceps" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M8 3c0 5 1.5 7.5 4 9.5M16 3c0 5-1.5 7.5-4 9.5M12 12.5V15m-3.5 6 2.3-6h2.4l2.3 6"/><circle cx="12" cy="15" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-crown" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 8.5 7 11l2.5-5L12 10l2.5-4L17 11l3-2.5-1.3 7.5H5.3L4 8.5Z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M6 19h12"/></symbol>
+    <symbol id="i-implant" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7 3.5h10c0 3-2 5-5 5s-5-2-5-5ZM9 11h6m-5.5 2.6h5m-4.5 2.6h4M11 19h2l-1 2.2"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M9.5 8.5 10 11m4.5-2.5L14 11"/></symbol>
+    <symbol id="i-scan" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 8V5.5A1.5 1.5 0 0 1 5.5 4H8m8 0h2.5A1.5 1.5 0 0 1 20 5.5V8m0 8v2.5a1.5 1.5 0 0 1-1.5 1.5H16m-8 0H5.5A1.5 1.5 0 0 1 4 18.5V16"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M9.3 8.2c-1.4 0-2.3 1.1-2.3 2.6 0 2 1 2.8 1.2 4.6.2 1.1.6 1.6 1.1 1.6.9 0 .8-2.6 1.9-2.6h1.6c1.1 0 1 2.6 1.9 2.6.5 0 .9-.5 1.1-1.6.2-1.8 1.2-2.6 1.2-4.6 0-1.5-.9-2.6-2.3-2.6-1 0-1.6.6-2.7.6s-1.7-.6-2.7-.6Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="i-tg" viewBox="0 0 24 24"><path fill="currentColor" d="M20.7 4.3 3.4 11c-1.2.5-1.2 1.2-.2 1.5l4.4 1.4 1.7 5.2c.2.6.1.8.7.8.5 0 .7-.2 1-.5l2.1-2.1 4.5 3.3c.8.5 1.4.2 1.6-.8l2.9-13.7c.3-1.3-.5-1.8-1.4-1.4ZM8.3 13.6l9.6-6c.5-.3.9-.1.5.2l-8.2 7.4-.3 3.4-1.6-5Z"/></symbol>
+    <symbol id="i-steth" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M6 3.5H5v5a4.5 4.5 0 0 0 9 0v-5h-1M9.5 13v1.5a5 5 0 0 0 10 0V13"/><circle cx="19.5" cy="11" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 20.5h16M6 20.5V6.5L12 3.5l6 3v14M10 20.5v-4h4v4M9.5 9.5h1m3 0h1m-5 3.5h1m3 0h1"/></symbol>
+    <symbol id="i-zoom" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M14 4h6v6M10 20H4v-6M20 4l-6 6M4 20l6-6"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+  </defs>
+</svg>
+
+<header class="hd">
+  <div class="bar">
+    <a class="logo" href="#top" aria-label="Dr. Abubakr — bosh sahifa">
+      <span class="mk"><svg class="ic" aria-hidden="true" style="color:#fff"><use href="#i-tooth"/></svg></span>
+      <span>Dr. Abubakr<small>DENTA ABU-MUSLIM</small></span>
+    </a>
+    <nav class="nav" aria-label="Bo'limlar">
+      <a href="#xizmatlar">Xizmatlar</a><a href="#natija">Natija</a><a href="#klinika">Klinika</a><a href="#shifokor">Shifokor</a><a href="#manzil">Manzil</a>
+    </nav>
+    <a class="btn" href="tel:+998913365580"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Qo'ng'iroq</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap grid">
+    <div class="rv">
+      <span class="who"><span class="dot"><svg class="ic" aria-hidden="true" style="width:14px;height:14px;color:var(--blue)"><use href="#i-pin"/></svg></span>Navoiy · <b>DENTA ABU-MUSLIM</b></span>
+      <h1>Tabassumingizni Navoiyda <span class="accent">tiklaymiz</span></h1>
+      <p class="lead">Dr. Abubakr Ochilov — stomatolog, xirurg va ortoped. Plombadan implantgacha bitta klinikada, bitta shifokor nazoratida.</p>
+      <div class="ctas">
+        <a class="btn" href="tel:+998913365580"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Qo'ng'iroq qilish<span class="ar"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></a>
+        <a class="btn btn--ghost" href="#natija">Natijani ko'rish</a>
+      </div>
+    </div>
+    <div class="rv">
+      <div class="portrait">
+        <img src="doktor.jpg" alt="Dr. Abubakr Ochilov, stomatolog" width="720" height="720" fetchpriority="high">
+        <a class="chip" href="tel:+998913365580">
+          <span><b>Dr. Abubakr Ochilov</b><span>Stomatolog · Xirurg · Ortoped</span></span>
+          <span class="round-ar"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg></span>
+        </a>
+      </div>
+      <div class="facts">
+        <div><svg class="ic" aria-hidden="true" style="color:var(--blue)"><use href="#i-scan"/></svg>3D rentgen</div>
+        <div><svg class="ic" aria-hidden="true" style="color:var(--blue)"><use href="#i-implant"/></svg>Implant</div>
+        <div><svg class="ic" aria-hidden="true" style="color:var(--blue)"><use href="#i-crown"/></svg>Koronka</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="xizmatlar">
+  <div class="wrap">
+    <div class="sec-hd rv">
+      <div><h2>Davolash yo'nalishlari <span class="soft">bir joyda</span></h2></div>
+      <div class="arrows"><button class="arr" data-rail="svcRail" data-d="-1" aria-label="Oldingi"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg></button><button class="arr arr--on" data-rail="svcRail" data-d="1" aria-label="Keyingi"><svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></div>
+    </div>
+    <div class="rail rv" id="svcRail">
+      <a class="svc" href="tel:+998913365580">
+        <span class="tile"><svg aria-hidden="true"><use href="#i-fill"/></svg></span>
+        <h3>Terapiya va plomba</h3>
+        <p>Kariesni davolash, vaqtinchalik va doimiy plomba. Tishni saqlab qolish — birinchi navbatda.</p>
+        <span class="foot">Yozilish <span class="ring"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></span>
+      </a>
+      <a class="svc svc--photo" href="tel:+998913365580">
+        <img src="jarroh.jpg" alt="" loading="lazy">
+        <span class="tile"><svg aria-hidden="true"><use href="#i-forceps"/></svg></span>
+        <h3>Xirurgiya</h3>
+        <p>Tish olish va jarrohlik muolajalari. Shifokorning o'zi xirurg.</p>
+        <span class="foot">Yozilish <span class="ring"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></span>
+      </a>
+      <a class="svc" href="tel:+998913365580">
+        <span class="tile"><svg aria-hidden="true"><use href="#i-crown"/></svg></span>
+        <h3>Ortopediya</h3>
+        <p>Koronka va protez: yo'qolgan yoki shikastlangan tishlarni tiklash.</p>
+        <span class="foot">Yozilish <span class="ring"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></span>
+      </a>
+      <a class="svc svc--photo" href="tel:+998913365580">
+        <img src="implant.jpg" alt="" loading="lazy">
+        <span class="tile"><svg aria-hidden="true"><use href="#i-implant"/></svg></span>
+        <h3>Implant</h3>
+        <p>Tish o'rnini implant bilan to'ldirish. Katta yoshdagilarga ham — 70 yoshli bemorimizga qo'yilgan.</p>
+        <span class="foot">Yozilish <span class="ring"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></span>
+      </a>
+      <a class="svc" href="tel:+998913365580">
+        <span class="tile"><svg aria-hidden="true"><use href="#i-scan"/></svg></span>
+        <h3>3D rentgen</h3>
+        <p>Klinikaning o'zida 3D tasvir: tashxis aniqroq, boshqa joyga borish shart emas.</p>
+        <span class="foot">Yozilish <span class="ring"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-hd rv"><h2>Raqamlarda <span class="soft">ochiq gap</span></h2></div>
+    <div class="nums">
+      <div class="ph rv"><img src="bino.jpg" alt="DENTA ABU-MUSLIM klinikasi binosi" loading="lazy"></div>
+      <div class="g">
+        <div class="num rv"><small>Mutaxassislik</small><b>3 tasi</b><span>stomatolog, xirurg, ortoped</span></div>
+        <div class="num rv"><small>Diagnostika</small><b>3D</b><span>rentgen klinikaning o'zida</span></div>
+        <div class="num rv"><small>Implant</small><b>70 yosh</b><span>bemorimiz ham implant qo'ydirdi</span></div>
+        <div class="num rv"><small>Instagram</small><b>17 ming+</b><span>kishi maslahatlarini kuzatadi</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="natija">
+  <div class="wrap">
+    <div class="sec-hd rv"><div><h2>Oldin va <span class="accent">keyin</span></h2><p class="lead">Klinikamizdagi haqiqiy bemor. Rasmni bosing — kattalashadi.</p></div></div>
+    <div class="case rv">
+      <div class="pairs">
+        <div class="pair">
+          <button class="shot" data-lb="b1-oldin.jpg" data-cap="Oldin — old tomondan"><img src="b1-oldin.jpg" alt="Davolashdan oldin, old tomondan" loading="lazy"><span class="tag">Oldin</span><span class="zoom"><svg class="ic" aria-hidden="true" style="width:15px;height:15px"><use href="#i-zoom"/></svg></span></button>
+          <button class="shot" data-lb="b1-keyin.jpg" data-cap="Keyin — old tomondan"><img src="b1-keyin.jpg" alt="Davolashdan keyin, old tomondan" loading="lazy"><span class="tag tag--k">Keyin</span><span class="zoom"><svg class="ic" aria-hidden="true" style="width:15px;height:15px"><use href="#i-zoom"/></svg></span></button>
+        </div>
+        <div class="pair">
+          <button class="shot" data-lb="b2-oldin.jpg" data-cap="Oldin — yon tomondan"><img src="b2-oldin.jpg" alt="Davolashdan oldin, yon tomondan" loading="lazy"><span class="tag">Oldin</span><span class="zoom"><svg class="ic" aria-hidden="true" style="width:15px;height:15px"><use href="#i-zoom"/></svg></span></button>
+          <button class="shot" data-lb="b2-keyin.jpg" data-cap="Keyin — yon tomondan"><img src="b2-keyin.jpg" alt="Davolashdan keyin, yon tomondan" loading="lazy"><span class="tag tag--k">Keyin</span><span class="zoom"><svg class="ic" aria-hidden="true" style="width:15px;height:15px"><use href="#i-zoom"/></svg></span></button>
+        </div>
+        <div class="pair pair--one">
+          <button class="shot" data-lb="b3-tabassum.jpg" data-cap="Yangi tabassum"><img src="b3-tabassum.jpg" alt="Davolashdan keyingi tabassum" loading="lazy"><span class="tag tag--k">Tabassum</span><span class="zoom"><svg class="ic" aria-hidden="true" style="width:15px;height:15px"><use href="#i-zoom"/></svg></span></button>
+        </div>
+      </div>
+      <div class="meta">
+        <span class="pp"><img src="bemor.jpg" alt="Bemor davolashdan keyin" loading="lazy"></span>
+        <span><b>«Navoiyda yana +1 go'zal tabassum»</b><span>Instagram sahifamizdagi holatdan</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tech-band" id="klinika">
+  <div class="wrap">
+    <h2 class="rv">Klinika ichida</h2>
+    <p class="lead sub rv">Tashxisdan jarrohlikkacha — hammasi bitta binoda.</p>
+    <div class="rail" id="techRail">
+      <figure class="tc rv"><img src="ct.jpg" alt="3D rentgen apparati" loading="lazy"><span class="badge">1</span><figcaption class="cap"><b>3D rentgen</b><span>aniq tashxis, joyida</span></figcaption></figure>
+      <figure class="tc rv"><img src="jarroh.jpg" alt="Dr. Abubakr jarrohlik kiyimida" loading="lazy"><span class="badge">2</span><figcaption class="cap"><b>Jarrohlik</b><span>tish olish va implant</span></figcaption></figure>
+      <figure class="tc rv"><img src="ish.jpg" alt="Dr. Abubakr bemor bilan ishlamoqda" loading="lazy"><span class="badge">3</span><figcaption class="cap"><b>Davolash kabineti</b><span>terapiya va ortopediya</span></figcaption></figure>
+    </div>
+    <div class="ctr"><button class="arr" data-rail="techRail" data-d="-1" aria-label="Oldingi"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg></button><button class="arr arr--on" data-rail="techRail" data-d="1" aria-label="Keyingi"><svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></div>
+  </div>
+</section>
+
+<section class="sec" id="shifokor">
+  <div class="wrap doc">
+    <div class="ph rv"><img src="ish.jpg" alt="Dr. Abubakr bemor bilan ishlamoqda" loading="lazy"></div>
+    <div>
+      <h2 class="rv">Dr. Abubakr <span class="accent">Ochilov</span></h2>
+      <p class="lead rv">DENTA ABU-MUSLIM klinikasi asoschisi. Instagram'da Navoiy aholisiga tish haqida oddiy tilda tushuntiradi — implant, koronka, plomba, breket haqidagi savollarga.</p>
+      <div class="list">
+        <div class="li rv"><span class="tile"><svg aria-hidden="true"><use href="#i-steth"/></svg></span><span><b>Stomatolog</b><span>tekshiruv, plomba, kanal davolash</span></span></div>
+        <div class="li rv"><span class="tile"><svg aria-hidden="true"><use href="#i-forceps"/></svg></span><span><b>Xirurg</b><span>tish olish, implant qo'yish</span></span></div>
+        <div class="li rv"><span class="tile"><svg aria-hidden="true"><use href="#i-crown"/></svg></span><span><b>Ortoped</b><span>koronka va protez</span></span></div>
+        <div class="li rv"><span class="tile"><svg aria-hidden="true"><use href="#i-building"/></svg></span><span><b>Klinika asoschisi</b><span>DENTA ABU-MUSLIM, Navoiy</span></span></div>
+      </div>
+      <div class="ctas rv">
+        <a class="btn" href="tel:+998913365580"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>+998 91 336 55 80</a>
+        <a class="btn btn--ghost" href="https://t.me/dr_Abubakir" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-tg"/></svg>Telegram</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec visit" id="manzil">
+  <div class="wrap">
+    <h2 class="rv">Bizga tashrif buyuring</h2>
+    <p class="lead sub rv">Navoiy, Islom Karimov ko'chasi, 66.</p>
+    <div class="stage rv" id="stage">
+      <figure class="vs"><img src="bino.jpg" alt="Klinika kirish qismi" loading="lazy"><figcaption class="cap">Kirish</figcaption></figure>
+      <figure class="vs"><img src="ct.jpg" alt="3D rentgen xonasi" loading="lazy"><figcaption class="cap">3D rentgen</figcaption></figure>
+      <figure class="vs"><img src="ish.jpg" alt="Davolash kabineti" loading="lazy"><figcaption class="cap">Kabinet</figcaption></figure>
+      <figure class="vs"><img src="jarroh.jpg" alt="Jarrohlik xonasi" loading="lazy"><figcaption class="cap">Jarrohlik</figcaption></figure>
+    </div>
+    <div class="ctr" style="align-items:center">
+      <button class="arr" id="vPrev" aria-label="Oldingi rasm"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg></button>
+      <span class="dots" id="vDots"></span>
+      <button class="arr arr--on" id="vNext" aria-label="Keyingi rasm"><svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+    </div>
+
+    <div class="mapgrid">
+      <div class="map rv"><iframe src="https://yandex.uz/map-widget/v1/?ll=65.377850%2C40.097885&amp;z=16&amp;pt=65.377850%2C40.097885%2Cpm2blm&amp;oid=85180049491" title="DENTA ABU-MUSLIM xaritada" loading="lazy" allowfullscreen></iframe></div>
+      <div class="addr rv">
+        <div class="row"><span class="tile"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><span><small>Manzil</small><b>Navoiy sh., Islom Karimov ko'chasi, 66</b></span></div>
+        <div class="row"><span class="tile"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><span><small>Telefon</small><b><a href="tel:+998913365580">+998 91 336 55 80</a></b></span></div>
+        <div class="row"><span class="tile"><svg aria-hidden="true"><use href="#i-tg"/></svg></span><span><small>Telegram orqali yozilish</small><b><a href="https://t.me/dr_Abubakir" target="_blank" rel="noopener">@dr_Abubakir</a></b></span></div>
+        <div class="row"><span class="tile"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><span><small>Ish vaqti</small><b>Qo'ng'iroq orqali kelishiladi</b></span></div>
+        <div class="ctas">
+          <a class="btn btn--ghost" href="https://yandex.uz/maps/?rtext=~40.097885%2C65.377850&amp;rtt=auto" target="_blank" rel="noopener">Yo'nalish</a>
+          <a class="btn" href="https://3.redirect.appmetrica.yandex.com/route?end-lat=40.097885&amp;end-lon=65.377850&amp;appmetrica_tracking_id=1178268795219780156" target="_blank" rel="noopener">Taksi</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <h2 class="faq-hd rv">Ko'p so'raladi</h2>
+    <div class="faq">
+      <details class="rv"><summary>Qanday yozilaman?<span class="pl"><svg class="ic" aria-hidden="true" style="width:15px;height:15px"><use href="#i-plus"/></svg></span></summary><p>+998 91 336 55 80 raqamiga qo'ng'iroq qiling yoki Telegram'da @dr_Abubakir ga yozing. Qulay kun va vaqtni birga tanlaymiz.</p></details>
+      <details class="rv"><summary>Ish vaqti qanday?<span class="pl"><svg class="ic" aria-hidden="true" style="width:15px;height:15px"><use href="#i-plus"/></svg></span></summary><p>Qabul vaqti qo'ng'iroq orqali kelishiladi.</p></details>
+      <details class="rv"><summary>Narxi qancha bo'ladi?<span class="pl"><svg class="ic" aria-hidden="true" style="width:15px;height:15px"><use href="#i-plus"/></svg></span></summary><p>Narx tishning holatiga bog'liq. Ko'rik va kerak bo'lsa 3D rentgendan keyin aniq reja va narxni aytamiz. Qo'ng'iroq qilib so'rashingiz mumkin.</p></details>
+      <details class="rv"><summary>Yoshim katta, implant qo'ysa bo'ladimi?<span class="pl"><svg class="ic" aria-hidden="true" style="width:15px;height:15px"><use href="#i-plus"/></svg></span></summary><p>Ko'p hollarda ha. Klinikamizda 70 yoshli bemorga ham implant qo'yilgan. Mumkinligini ko'rik va rentgen ko'rsatadi.</p></details>
+      <details class="rv"><summary>Rentgen uchun boshqa joyga borish kerakmi?<span class="pl"><svg class="ic" aria-hidden="true" style="width:15px;height:15px"><use href="#i-plus"/></svg></span></summary><p>Yo'q. Klinikaning o'zida 3D rentgen apparati bor.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2 class="rv">Tabassumingizni <span class="accent">kechiktirmang</span></h2>
+    <p class="rv">Bitta qo'ng'iroq — va qabul vaqtini birga tanlaymiz.</p>
+    <div class="ctas rv">
+      <a class="btn btn--light" href="tel:+998913365580"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Qo'ng'iroq qilish<span class="ar"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></a>
+      <a class="btn btn--ghost-light" href="https://t.me/dr_Abubakir" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-tg"/></svg>Telegram'da yozish</a>
+    </div>
+    <a class="num-big" href="tel:+998913365580">+998 91 336 55 80</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">DENTA ABU-MUSLIM · Dr. Abubakr Ochilov · Navoiy, Islom Karimov ko'chasi, 66<br><a href="https://instagram.com/doctor_abubakr" target="_blank" rel="noopener">Instagram</a> · <a href="https://t.me/dr_Abubakir" target="_blank" rel="noopener">Telegram</a></div>
+</footer>
+
+<div class="callbar" id="callbar">
+  <a class="btn" href="tel:+998913365580"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Qo'ng'iroq qilish</a>
+  <a class="btn tg" href="https://t.me/dr_Abubakir" target="_blank" rel="noopener" aria-label="Telegram"><svg class="ic" aria-hidden="true" style="width:24px;height:24px"><use href="#i-tg"/></svg></a>
+</div>
+
+<dialog class="lb" id="lb" aria-label="Rasm">
+  <div class="box">
+    <img id="lbImg" alt="">
+    <div class="bt"><b id="lbCap"></b><button class="x" id="lbX" aria-label="Yopish"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  // reveal
+  var io = 'IntersectionObserver' in window ? new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  },{rootMargin:'0px 0px -8% 0px'}) : null;
+  document.querySelectorAll('.rv').forEach(function(el){ io ? io.observe(el) : el.classList.add('in'); });
+
+  // rails
+  document.querySelectorAll('[data-rail]').forEach(function(b){
+    b.addEventListener('click', function(){
+      var r = document.getElementById(b.dataset.rail), c = r.firstElementChild;
+      r.scrollBy({left:(c.getBoundingClientRect().width + 12) * +b.dataset.d, behavior:'smooth'});
+    });
+  });
+  ['svcRail','techRail'].forEach(function(id){
+    var r = document.getElementById(id), bs = document.querySelectorAll('[data-rail="'+id+'"]');
+    function upd(){ bs[0].disabled = r.scrollLeft < 4; bs[1].disabled = r.scrollLeft + r.clientWidth > r.scrollWidth - 4; }
+    r.addEventListener('scroll', upd, {passive:true}); addEventListener('resize', upd); upd();
+  });
+
+  // visit carousel
+  var vs = [].slice.call(document.querySelectorAll('.vs')), dots = document.getElementById('vDots'), cur = 0;
+  vs.forEach(function(){ dots.appendChild(document.createElement('i')); });
+  function show(n){
+    cur = (n + vs.length) % vs.length;
+    vs.forEach(function(v,i){
+      v.className = 'vs' + (i === cur ? ' on' : i === (cur - 1 + vs.length) % vs.length ? ' prev' : i === (cur + 1) % vs.length ? ' next' : '');
+    });
+    [].forEach.call(dots.children, function(d,i){ d.className = i === cur ? 'on' : ''; });
+  }
+  document.getElementById('vPrev').onclick = function(){ show(cur - 1); };
+  document.getElementById('vNext').onclick = function(){ show(cur + 1); };
+  vs.forEach(function(v,i){ v.addEventListener('click', function(){ if(i !== cur) show(i); }); });
+  var sx = null, st = document.getElementById('stage');
+  st.addEventListener('touchstart', function(e){ sx = e.touches[0].clientX; }, {passive:true});
+  st.addEventListener('touchend', function(e){ if(sx === null) return; var dx = e.changedTouches[0].clientX - sx; if(Math.abs(dx) > 40) show(cur + (dx < 0 ? 1 : -1)); sx = null; });
+  show(0);
+
+  // lightbox
+  var lb = document.getElementById('lb'), li = document.getElementById('lbImg'), lc = document.getElementById('lbCap');
+  document.querySelectorAll('[data-lb]').forEach(function(b){
+    b.addEventListener('click', function(){
+      li.src = b.dataset.lb; li.alt = b.dataset.cap; lc.textContent = b.dataset.cap;
+      if(lb.showModal) lb.showModal(); else lb.setAttribute('open','');
+    });
+  });
+  document.getElementById('lbX').onclick = function(){ lb.close(); };
+  lb.addEventListener('click', function(e){ if(e.target === lb) lb.close(); });
+
+  // sticky call bar after hero
+  var cb = document.getElementById('callbar'), hero = document.querySelector('.hero');
+  addEventListener('scroll', function(){ cb.classList.toggle('show', scrollY > hero.offsetHeight * .8); }, {passive:true});
+})();
+</script>
+</body>
+</html>
