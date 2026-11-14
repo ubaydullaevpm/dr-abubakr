@@ -111,6 +111,11 @@ h2 .soft{color:#5B6A8E;font-weight:600}
 .svc--photo .tile{background:#fff}
 .tile{width:54px;height:54px;border-radius:50%;background:var(--ice);display:grid;place-items:center;color:var(--blue);flex:none}
 .tile svg{width:26px;height:26px}
+.tile--img{background:#E5ECF6;overflow:hidden}
+.tile--img img{width:100%;height:100%;object-fit:cover;transform:scale(1.3)}
+.svc .tile.tile--img{width:64px;height:64px}
+.li .tile.tile--img,.addr .row .tile.tile--img{width:54px;height:54px}
+.facts .fi{display:block;width:48px;height:48px;border-radius:50%;margin:0 auto 6px;object-fit:cover;transform:none}
 .ring{width:38px;height:38px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center}
 .svc--photo .ring{background:#fff;color:var(--navy)}
 @media (min-width:900px){.svc{flex-basis:calc((100% - 36px)/4)}.rail{margin:0;padding:2px 0 6px;scroll-padding-inline:0}}
@@ -306,9 +311,9 @@ dialog.lb::backdrop{background:rgba(6,16,40,.82)}
         </a>
       </div>
       <div class="facts">
-        <div><svg class="ic" aria-hidden="true" style="color:var(--blue)"><use href="#i-scan"/></svg>3D rentgen</div>
-        <div><svg class="ic" aria-hidden="true" style="color:var(--blue)"><use href="#i-implant"/></svg>Implant</div>
-        <div><svg class="ic" aria-hidden="true" style="color:var(--blue)"><use href="#i-crown"/></svg>Koronka</div>
+        <div><img class="fi" src="ik-rentgen.jpg" alt="" aria-hidden="true" width="128" height="128">3D rentgen</div>
+        <div><img class="fi" src="ik-implant.jpg" alt="" aria-hidden="true" width="128" height="128">Implant</div>
+        <div><img class="fi" src="ik-koronka.jpg" alt="" aria-hidden="true" width="128" height="128">Koronka</div>
       </div>
     </div>
   </div>
@@ -322,33 +327,33 @@ dialog.lb::backdrop{background:rgba(6,16,40,.82)}
     </div>
     <div class="rail rv" id="svcRail">
       <a class="svc" href="tel:+998913365580">
-        <span class="tile"><svg aria-hidden="true"><use href="#i-fill"/></svg></span>
+        <span class="tile tile--img"><img src="ik-tish.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span>
         <h3>Terapiya va plomba</h3>
         <p>Kariesni davolash, vaqtinchalik va doimiy plomba. Tishni saqlab qolish — birinchi navbatda.</p>
         <span class="foot">Yozilish <span class="ring"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></span>
       </a>
       <a class="svc svc--photo" href="tel:+998913365580">
         <img src="jarroh.jpg" alt="" loading="lazy">
-        <span class="tile"><svg aria-hidden="true"><use href="#i-forceps"/></svg></span>
+        <span class="tile tile--img"><img src="ik-xirurg.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span>
         <h3>Xirurgiya</h3>
         <p>Tish olish va jarrohlik muolajalari. Shifokorning o'zi xirurg.</p>
         <span class="foot">Yozilish <span class="ring"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></span>
       </a>
       <a class="svc" href="tel:+998913365580">
-        <span class="tile"><svg aria-hidden="true"><use href="#i-crown"/></svg></span>
+        <span class="tile tile--img"><img src="ik-koronka.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span>
         <h3>Ortopediya</h3>
         <p>Koronka va protez: yo'qolgan yoki shikastlangan tishlarni tiklash.</p>
         <span class="foot">Yozilish <span class="ring"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></span>
       </a>
       <a class="svc svc--photo" href="tel:+998913365580">
         <img src="implant.jpg" alt="" loading="lazy">
-        <span class="tile"><svg aria-hidden="true"><use href="#i-implant"/></svg></span>
+        <span class="tile tile--img"><img src="ik-implant.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span>
         <h3>Implant</h3>
         <p>Tish o'rnini implant bilan to'ldirish. Katta yoshdagilarga ham — 70 yoshli bemorimizga qo'yilgan.</p>
         <span class="foot">Yozilish <span class="ring"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></span>
       </a>
       <a class="svc" href="tel:+998913365580">
-        <span class="tile"><svg aria-hidden="true"><use href="#i-scan"/></svg></span>
+        <span class="tile tile--img"><img src="ik-rentgen.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span>
         <h3>3D rentgen</h3>
         <p>Klinikaning o'zida 3D tasvir: tashxis aniqroq, boshqa joyga borish shart emas.</p>
         <span class="foot">Yozilish <span class="ring"><svg class="ic" aria-hidden="true" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></span>
@@ -417,10 +422,10 @@ dialog.lb::backdrop{background:rgba(6,16,40,.82)}
       <h2 class="rv">Dr. Abubakr <span class="accent">Ochilov</span></h2>
       <p class="lead rv">DENTA ABU-MUSLIM klinikasi asoschisi. Instagram'da Navoiy aholisiga tish haqida oddiy tilda tushuntiradi — implant, koronka, plomba, breket haqidagi savollarga.</p>
       <div class="list">
-        <div class="li rv"><span class="tile"><svg aria-hidden="true"><use href="#i-steth"/></svg></span><span><b>Stomatolog</b><span>tekshiruv, plomba, kanal davolash</span></span></div>
-        <div class="li rv"><span class="tile"><svg aria-hidden="true"><use href="#i-forceps"/></svg></span><span><b>Xirurg</b><span>tish olish, implant qo'yish</span></span></div>
-        <div class="li rv"><span class="tile"><svg aria-hidden="true"><use href="#i-crown"/></svg></span><span><b>Ortoped</b><span>koronka va protez</span></span></div>
-        <div class="li rv"><span class="tile"><svg aria-hidden="true"><use href="#i-building"/></svg></span><span><b>Klinika asoschisi</b><span>DENTA ABU-MUSLIM, Navoiy</span></span></div>
+        <div class="li rv"><span class="tile tile--img"><img src="ik-steto.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span><span><b>Stomatolog</b><span>tekshiruv, plomba, kanal davolash</span></span></div>
+        <div class="li rv"><span class="tile tile--img"><img src="ik-xirurg.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span><span><b>Xirurg</b><span>tish olish, implant qo'yish</span></span></div>
+        <div class="li rv"><span class="tile tile--img"><img src="ik-koronka.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span><span><b>Ortoped</b><span>koronka va protez</span></span></div>
+        <div class="li rv"><span class="tile tile--img"><img src="ik-bino.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span><span><b>Klinika asoschisi</b><span>DENTA ABU-MUSLIM, Navoiy</span></span></div>
       </div>
       <div class="ctas rv">
         <a class="btn" href="tel:+998913365580"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>+998 91 336 55 80</a>
@@ -449,10 +454,10 @@ dialog.lb::backdrop{background:rgba(6,16,40,.82)}
     <div class="mapgrid">
       <div class="map rv"><iframe src="https://yandex.uz/map-widget/v1/?ll=65.377850%2C40.097885&amp;z=16&amp;pt=65.377850%2C40.097885%2Cpm2blm&amp;oid=85180049491" title="DENTA ABU-MUSLIM xaritada" loading="lazy" allowfullscreen></iframe></div>
       <div class="addr rv">
-        <div class="row"><span class="tile"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><span><small>Manzil</small><b>Navoiy sh., Islom Karimov ko'chasi, 66</b></span></div>
-        <div class="row"><span class="tile"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><span><small>Telefon</small><b><a href="tel:+998913365580">+998 91 336 55 80</a></b></span></div>
-        <div class="row"><span class="tile"><svg aria-hidden="true"><use href="#i-tg"/></svg></span><span><small>Telegram orqali yozilish</small><b><a href="https://t.me/dr_Abubakir" target="_blank" rel="noopener">@dr_Abubakir</a></b></span></div>
-        <div class="row"><span class="tile"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><span><small>Ish vaqti</small><b>Qo'ng'iroq orqali kelishiladi</b></span></div>
+        <div class="row"><span class="tile tile--img"><img src="ik-pin.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span><span><small>Manzil</small><b>Navoiy sh., Islom Karimov ko'chasi, 66</b></span></div>
+        <div class="row"><span class="tile tile--img"><img src="ik-tel.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span><span><small>Telefon</small><b><a href="tel:+998913365580">+998 91 336 55 80</a></b></span></div>
+        <div class="row"><span class="tile tile--img"><img src="ik-tg.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span><span><small>Telegram orqali yozilish</small><b><a href="https://t.me/dr_Abubakir" target="_blank" rel="noopener">@dr_Abubakir</a></b></span></div>
+        <div class="row"><span class="tile tile--img"><img src="ik-soat.jpg" alt="" aria-hidden="true" width="128" height="128" loading="lazy" decoding="async"></span><span><small>Ish vaqti</small><b>Qo'ng'iroq orqali kelishiladi</b></span></div>
         <div class="ctas">
           <a class="btn btn--ghost" href="https://yandex.uz/maps/?rtext=~40.097885%2C65.377850&amp;rtt=auto" target="_blank" rel="noopener">Yo'nalish</a>
           <a class="btn" href="https://3.redirect.appmetrica.yandex.com/route?end-lat=40.097885&amp;end-lon=65.377850&amp;appmetrica_tracking_id=1178268795219780156" target="_blank" rel="noopener">Taksi</a>
